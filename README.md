@@ -1,4 +1,6 @@
-VIdeo of Robot in Action: https://drive.google.com/file/d/1IMJ71arNyHUMO0AL70gOxukxaX-nxR2s/view?usp=drive_link
+Arduino robot in action: https://drive.google.com/file/d/1IMJ71arNyHUMO0AL70gOxukxaX-nxR2s/view?usp=drive_link
+<img width="2119" height="1170" alt="arduino drone photo" src="https://github.com/user-attachments/assets/081deb1c-0d4a-450c-9f46-b1b6aaeb8b54" />
+
 
 For my push button, I used a pull-down resistor. I chose this configuration because it was easier to implement than a pull up resistor. Apparently, Arduino’s already have built in pull up resistors, which you could implement using INPUT_PULLUP when you’re configuring your pin mode. The pull-down resistor works by connecting the circuit so that the pin has access to power and is grounded. When you implement a pull up resistor, it connects the directly to the ground so the energy has an easier place to go than through the resistor to the pin.
 
