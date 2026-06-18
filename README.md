@@ -1,3 +1,5 @@
+VIdeo of Robot in Action: https://drive.google.com/file/d/1IMJ71arNyHUMO0AL70gOxukxaX-nxR2s/view?usp=drive_link
+
 For my push button, I used a pull-down resistor. I chose this configuration because it was easier to implement than a pull up resistor. Apparently, Arduino’s already have built in pull up resistors, which you could implement using INPUT_PULLUP when you’re configuring your pin mode. The pull-down resistor works by connecting the circuit so that the pin has access to power and is grounded. When you implement a pull up resistor, it connects the directly to the ground so the energy has an easier place to go than through the resistor to the pin.
 
 The pins are associated with different variables. This was done in the skeleton code that was provided for us. On the hardware side of things, each of the pins is connected to by totally separate buttons. Thus, pin mode A5 and A3 (right and left wheels) are completely uncorrelated to Pin mode A2 and A6 (up and down sensors). 
